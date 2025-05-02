@@ -1,57 +1,71 @@
-#  Zone based occupancy Detection 
 
-##  Project Description
 
-This project is a computer vision-based  Slot Detection System developed using OpenCV and Python. It allows users to manually mark, save, and manage  slot areas on a static image (e.g., a warehouse shelf image captured by a surveillance camera). The system provides  users to draw and delete slot rectangles using mouse inputs.
 
-It is particularly useful in scenarios like:
+<h1> Zone-Based-Occupancy-Detection using OpenCV</h1>
+
+<h2>Project Description</h2>
+<p>This project is a computer vision-based <strong>Zone-Based-Occupancy-Detection System</strong> developed using <strong>OpenCV and Python</strong>. It allows users to manually mark, save, and manage slots of the objects areas on a static image (e.g., a warehouse shelf image captured by a surveillance camera).The system provides  users to draw and delete slot rectangles using mouse inputs.</p>
+<p>It is particularly useful in scenarios like:
 
 - Setting up an initial map of a objects in the shelf.
 - Marking ocupied or available  spaces.
 - Preprocessing for automated  space occupancy detection models.
+</p>
 
-##  Key Features
+<h2> Key Features</h2>
+<ul>
+    <li><strong>Draw and Save object area:</strong> Users can draw rectangles on the image to define the boundaries of object space. These positions are saved using Python’s pickle module, allowing persistence between sessions.</li>
+    <li><strong>Delete Existing Slots:</strong> Users can switch to a delete mode, allowing them to remove previously marked spaces by simply clicking on them.</li>
+    <li><strong>Mouse Interaction:</strong> The entire slot marking system is built using OpenCV's mouse callback features, offering real-time, intuitive interaction.</li>
+    <li><strong>Position Storage:</strong> All slot coordinates are saved in a file (Pos) using serialization. This allows loading and editing previously marked parking layouts.</li>
+    <li><strong>Lightweight:</strong> No deep learning or heavy models required – it’s a clean, fast, and easy-to-use utility for  mapping objects  or similar use cases.</li>
+</ul>
 
-### ✅ Draw and Save Parking Slots
-Users can draw rectangles on the image to define the boundaries of object space. These positions are saved using Python’s `pickle` module, allowing persistence between sessions.
+<h2> How It Works</h2>
+<ol>
+    <li><strong>Load Image: </strong>  The image file (e.g., frame.jpg) of a ware house area where objects aregoing to be kept is loaded using OpenCV.</li>
+    <li><strong>Draw Mode (Default): </strong>  Click and drag on the image to draw a rectangle (object space).</li>
+    <li><strong>Delete Mode (Toggle Option): </strong>Switch to delete mode and click on an existing rectangle to remove it.</li>
+    <li> <strong>Save Positions: </strong>Slot coordinates are saved automatically and persist in a file for future use.</li>
+    <li> <strong>Display: </strong>Updated images with slot overlays are shown live using OpenCV GUI windows.</li>
+</ol>
 
-### ✅ Delete Existing Slots
-Users can switch to a delete mode, allowing them to remove previously marked spaces by simply clicking on them.
+<h2> Installation & Setup</h2>
+<h3>Prerequisites</h3>
+<pre><code>pip install opencv-python matplotlib pillow cvzone numpy</code></pre>
 
-### ✅ Mouse Interaction
-The entire slot marking system is built using OpenCV's mouse callback features, offering real-time, intuitive interaction.
+<h3>Project Structure</h3>
+<pre><code>project-folder/
+├── final_dip.ipynb               # Main notebook
+├── frame.jpg                #  image of video frame
+├── Pos                      # Saved positions
+</code></pre>
 
-### ✅ Position Storage
-All slot coordinates are saved in a file (`Pos`) using serialization. This allows loading and editing previously marked parking layouts.
+<h3>Running the Notebook</h3>
+<pre><code>jupyter notebook final_dip.ipynb</code></pre>
+Run each cell in order and follow on-screen instructions for marking slots.
 
-### ✅ Lightweight and Easy to Use
-No deep learning or heavy models required – it’s a clean, fast, and easy-to-use utility for  mapping objects  or similar use cases.
+<h2>💡 Use Cases</h2>
+<ul>
+    <li>Preprocessing for automated parking detection systems.</li>
+    <li>Manual tagging of regions in aerial or satellite images.</li>
+    <li>Interactive labeling tool for computer vision tasks.</li>
+</ul>
 
-## 🖼️ How It Works
+<h2>📂 File Descriptions</h2>
+<ul>
+    <li><code>new4.ipynb</code> - Main interactive notebook.
+       In the notebook, each Python cell is accompanied by a corresponding Markdown cell that provides clear instructions and operational details. These Markdown cells ensure that users understand how to utilize 
+       each code cell effectively, facilitating structured execution and comprehension.</li> 
+    <li><code>frame.jpg</code> - Input image file.</li>
+    <li><code>Pos</code> - Stores drawn slot positions.</li>
+</ul>
 
-1. **Load Image**  
-   The image file (e.g., `frame.jpg`) of a ware house area where objects aregoing to be kept is loaded using OpenCV.
+<h2>👨‍💻 Contributing</h2>
+<p>Contributions are welcome! Please fork the repo, create a new branch, and submit a pull request with your changes.</p>
 
-2. **Draw Mode (Default)**  
-   Click and drag on the image to draw a rectangle (object space).
+<h2>📄 License</h2>
+<p>This project is licensed under the MIT License.</p>
 
-3. **Delete Mode (Toggle Option)**  
-   Switch to delete mode and click on an existing rectangle to remove it.
-
-4. **Save Positions**  
-   Slot coordinates are saved automatically and persist in a file for future use.
-
-5. **Display**  
-   Updated images with slot overlays are shown live using OpenCV GUI windows.
-
-## 🛠️ Installation & Setup
-
-### Prerequisites
-
-Ensure you have Python 3.x installed, then install the required libraries:
-
-```bash
-pip install opencv-python matplotlib pillow cvzone numpy.
-
-
-
+</body>
+</html>
