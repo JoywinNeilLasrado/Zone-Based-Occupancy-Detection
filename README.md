@@ -54,7 +54,7 @@ Run each cell in order and follow on-screen instructions for marking slots.
 
 <h2>📂 File Descriptions</h2>
 <ul>
-    <li><code>new4.ipynb</code> - Main interactive notebook.
+    <li><code>final_dip.ipynb</code> - Main interactive notebook.
        In the notebook, each Python cell is accompanied by a corresponding Markdown cell that provides clear instructions and operational details. These Markdown cells ensure that users understand how to utilize 
        each code cell effectively, facilitating structured execution and comprehension.</li> 
     <li><code>frame.jpg</code> - Input image file.</li>
