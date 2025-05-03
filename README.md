@@ -79,6 +79,31 @@
     <li><strong>Jupyter Notebook:</strong> Interactive development and testing environment for running the application.</li>
 </ul>
 
+<h3>🧪 Image Preprocessing Techniques Used</h3>
+<p>The image goes through a series of preprocessing steps to enhance the detection of object zones:</p>
+
+<ol>
+    <li>
+        <strong>Grayscale Conversion:</strong>
+        Converts the original color image to grayscale, reducing complexity and focusing on intensity values.
+    </li>
+    <li>
+        <strong>Gaussian Blur:</strong>
+        Smooths the grayscale image to reduce noise and fine details, which helps in more accurate thresholding.
+    </li>
+    <li>
+        <strong>Adaptive Thresholding:</strong>
+        Converts the image into black and white based on local pixel variations, making objects stand out under different lighting.
+    </li>
+    <li>
+        <strong>Median Blur:</strong>
+        Removes salt-and-pepper noise while preserving edges, improving region clarity.
+    </li>
+    <li>
+        <strong>Dilation:</strong>
+        Expands the bright regions in the binary image, enhancing the structure of the detected object zones.
+    </li>
+</ol>
 <h3>Prerequisites</h3>
 <pre><code>pip install opencv-python matplotlib pillow cvzone numpy</code></pre>
 
@@ -103,7 +128,7 @@ Run each cell in order and follow on-screen instructions for marking slots.
 <h2>📂 File Descriptions</h2>
 <ul>
     <li><code>final_dip.ipynb</code> - Main interactive notebook.
-       In the notebook, each Python cell is accompanied by a corresponding Markdown cell that provides clear instructions and operational details. These Markdown cells ensure that users understand how to utilize 
+       In the notebook, each Python cell is accompanied by a corresponding Markdown cell that provides clear instructions and operational details. 
        each code cell effectively, facilitating structured execution and comprehension.</li> 
     <li><code>frame.jpg</code> - Input image file.</li>
     <li><code>Pos</code> - Stores drawn slot positions.</li>
