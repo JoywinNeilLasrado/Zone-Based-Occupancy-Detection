@@ -28,6 +28,39 @@
     <li><strong>Delete Mode (Toggle Option): </strong>Switch to delete mode and click on an existing rectangle to remove it.</li>
     <li> <strong>Save Positions: </strong>Slot coordinates are saved automatically and persist in a file for future use.</li>
     <li> <strong>Display: </strong>Updated images with slot overlays are shown live using OpenCV GUI windows.</li>
+</ol> 
+
+<h2>Steps of Our Zone-Based Occupancy Detection Project</h2>
+<ol>
+    <li>
+        <strong>Image Acquisition</strong><br>
+        We capture or upload an image (e.g., image of the warehouse where the object is kept).
+    </li>
+    <li>
+        <strong>Object Position Definition</strong><br>
+        We manually define coordinates for each object we want to monitor.
+    </li>
+    <li>
+        <strong>Region Cropping</strong><br>
+        The image is divided into individual regions based on the defined coordinates.
+    </li>
+    <li>
+        <strong>Occupancy Detection</strong><br>
+        Each position is analyzed based on:
+        <ul>
+            <li>Pixel intensity</li>
+            <li>Edge presence</li>
+        </ul>
+        to determine whether the object is present or missing.
+    </li>
+    <li>
+        <strong>Visualization</strong><br>
+        Colored positions are drawn to indicate status:
+        <ul>
+            <li><span style="color:red;">🟥 Red</span> – Object is <strong>present</strong></li>
+            <li><span style="color:green;">🟩 Green</span> – Object is <strong>missing</strong></li>
+        </ul>
+    </li>
 </ol>
 
 <h2> Installation & Setup</h2>
