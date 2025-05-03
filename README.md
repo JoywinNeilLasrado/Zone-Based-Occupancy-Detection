@@ -2,6 +2,8 @@
 
 
 <h1> Zone-Based-Occupancy-Detection using OpenCV</h1>
+<h2>Problem Statement</h2>
+<p>In warehouse and inventory management, tracking the presence or absence of objects on storage shelves is crucial for operational efficiency. Traditional automated object detection systems often require heavy computational resources and training data. There is a need for a lightweight, user-friendly tool that enables manual region labeling and simple presence detection based on visual cues.</p>
 
 <h2>Project Description</h2>
 <p>This project is a computer vision-based <strong>Zone-Based-Occupancy-Detection System</strong> developed using <strong>OpenCV and Python</strong>. It allows users to manually mark, save, and manage slots of the objects areas on a static image (e.g., a warehouse shelf image captured by a surveillance camera).The system provides  users to draw and delete slot rectangles using mouse inputs.</p>
