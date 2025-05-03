@@ -128,7 +128,7 @@ Run each cell in order and follow on-screen instructions for marking slots.
 <ul>
     <li><code>final_dip.ipynb</code> - Main interactive notebook.
        In the notebook, we have accompanied each Python cell by a corresponding Markdown cell that provides clear instructions and operational details. 
-       each code cell effectively, facilitating structured execution and comprehension.</li> 
+       </li> 
     <li><code>frame.jpg</code> - Input image file.</li>
     <li><code>Pos</code> - Stores drawn slot positions.</li>
 </ul>
