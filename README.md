@@ -64,6 +64,19 @@
 </ol>
 
 <h2> Installation & Setup</h2>
+
+<h3> Technology Used</h3>
+<ul>
+    <li><strong>Python:</strong> Core programming language used for implementing logic and UI interactions.</li>
+    <li><strong>OpenCV:</strong> Computer vision library for image handling, mouse interaction, and GUI display.</li>
+    <li><strong>Matplotlib:</strong> Used for optional image visualization and debugging.</li>
+    <li><strong>Pillow:</strong> Python Imaging Library used for image manipulation tasks if needed.</li>
+    <li><strong>cvzone:</strong> Utility wrapper built on OpenCV to simplify common vision tasks (optional but helpful).</li>
+    <li><strong>NumPy:</strong> For efficient numerical operations and coordinate management.</li>
+    <li><strong>Pickle:</strong> Python’s built-in module used to serialize and store slot coordinates.</li>
+    <li><strong>Jupyter Notebook:</strong> Interactive development and testing environment for running the application.</li>
+</ul>
+
 <h3>Prerequisites</h3>
 <pre><code>pip install opencv-python matplotlib pillow cvzone numpy</code></pre>
 
