@@ -1,6 +1,3 @@
-
-
-
 <h1> Zone-Based-Occupancy-Detection using OpenCV</h1>
 <h2>Problem Statement</h2>
 <p>In warehouse and inventory management, tracking the presence or absence of objects on storage shelves is crucial for operational efficiency. Traditional automated object detection systems often require heavy computational resources and training data. There is a need for a lightweight, user-friendly tool that enables manual region labeling and simple presence detection based on visual cues.</p>
@@ -79,7 +76,7 @@
     <li><strong>Jupyter Notebook:</strong> Interactive development and testing environment for running the application.</li>
 </ul>
 
-<h3>🧪 Image Preprocessing Techniques Used</h3>
+<h3> Image Preprocessing Techniques Used</h3>
 <p>The image goes through a series of preprocessing steps to enhance the detection of object zones:</p>
 
 <ol>
@@ -118,7 +115,7 @@
 <pre><code>jupyter notebook final_dip.ipynb</code></pre>
 Run each cell in order and follow on-screen instructions for marking slots.
 
-<h2>💡 Use Cases</h2>
+<h2> Use Cases</h2>
 <ul>
     <li>Preprocessing for automated object detection systems.</li>
     <li>Manual tagging of regions in CCTV survileence images to focus on one object.</li>
@@ -134,7 +131,13 @@ Run each cell in order and follow on-screen instructions for marking slots.
     <li><code>Pos</code> - Stores drawn slot positions.</li>
 </ul>
 
-<h2>👨‍💻 Contributing</h2>
+<h2> Team Members</h2>
+<ul>
+    <li><strong>Joywin Neil Lasrado</strong> - 4SO22CD024</li>
+    <li><strong>Subhiksha Rai K</strong> - 4SO22CD054</li>
+    <li><strong>Prerana D P</strong> - 4SO22CD037</li>
+</ul>
+<h2>Contributing</h2>
 <p>Contributions are welcome! Please fork the repo, create a new branch, and submit a pull request with your changes.</p>
 
 <h2>📄 License</h2>
