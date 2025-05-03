@@ -17,7 +17,7 @@
     <li><strong>Draw and Save object area:</strong> Users can draw rectangles on the image to define the boundaries of object space. These positions are saved using Python’s pickle module, allowing persistence between sessions.</li>
     <li><strong>Delete Existing Slots:</strong> Users can switch to a delete mode, allowing them to remove previously marked spaces by simply clicking on them.</li>
     <li><strong>Mouse Interaction:</strong> The entire slot marking system is built using OpenCV's mouse callback features, offering real-time, intuitive interaction.</li>
-    <li><strong>Position Storage:</strong> All slot coordinates are saved in a file (Pos) using serialization. This allows loading and editing previously marked parking layouts.</li>
+    <li><strong>Position Storage:</strong> All slot coordinates are saved in a file (Pos) using serialization. This allows loading and editing previously marked  layouts of the object.</li>
     <li><strong>Lightweight:</strong> No deep learning or heavy models required – it’s a clean, fast, and easy-to-use utility for  mapping objects  or similar use cases.</li>
 </ul>
 
