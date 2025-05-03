@@ -102,7 +102,7 @@
     </li>
 </ol>
 <h3>Prerequisites</h3>
-<pre><code>pip install opencv-python matplotlib pillow cvzone numpy</code></pre>
+<pre><code>pip install opencv-python matplotlib pillow cvzone numpy pickle </code></pre>
 
 <h3>Project Structure</h3>
 <pre><code>project-folder/
