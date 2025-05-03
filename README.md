@@ -109,6 +109,8 @@
 ├── final_dip.ipynb               # Main notebook
 ├── frame.jpg                #  image of video frame
 ├── Pos                      # Saved positions
+├── warehouseshelf.mp4       # Video of ware house having objects in it 
+├── LICENSE                  # MIT license
 </code></pre>
 
 <h3>Running the Notebook</h3>
