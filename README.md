@@ -93,8 +93,8 @@ Run each cell in order and follow on-screen instructions for marking slots.
 
 <h2>💡 Use Cases</h2>
 <ul>
-    <li>Preprocessing for automated parking detection systems.</li>
-    <li>Manual tagging of regions in aerial or satellite images.</li>
+    <li>Preprocessing for automated object detection systems.</li>
+    <li>Manual tagging of regions in CCTV survileence images to focus on one object.</li>
     <li>Interactive labeling tool for computer vision tasks.</li>
 </ul>
 
